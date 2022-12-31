@@ -30,7 +30,7 @@ def AddEmpForm():
 
 @app.route("/about")
 def about():
-    return render_template('aboutUS.html')
+    return render_template('aboutUs.html')
 
 
 @app.route("/addemp", methods=['POST'])
